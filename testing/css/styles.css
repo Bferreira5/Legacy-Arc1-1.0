@@ -1,0 +1,520 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Web Design Page */
+
+body{
+	background-color:#fff;
+	
+}
+
+
+
+.color_blue1 {
+	
+	background-color: #B9E5FA;
+	
+}
+
+.color_blue2 {
+	
+	background-color: #96DAF8;
+	
+}
+
+.color_blue3 {
+	
+	background-color: #69CEF5;
+	
+}
+
+.color_blue4 {
+	
+	background-color: #00C1F3;
+	
+}
+
+.color_blue5 {
+	
+	background-color: #00B7F1;
+	
+}
+
+.menu {
+	
+	font-size:16px;
+	font-weight:300;
+	color: #000;
+	line-height: 9px;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.px {
+	margin-right: 5px !important;
+}
+.add_border {
+	border-left: solid;
+	border-color: #CCC;
+	
+}
+
+.small {
+	font-size:12px;
+	font-weight:500;
+	line-height: 12px !important;
+	margin-bottom:5px;
+	
+}
+
+.box-fixed {
+  padding: 20px;
+
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.box-fixed h1 {
+
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
+}
+
+.box-fixed li {
+  line-height: 30px;
+}
+
+
+
+
+/* Carosel Custom Class */
+
+.cta_promo1 {
+	position: absolute;
+	top: 65%;
+  	left: 10%;
+  	width: auto;	
+}
+
+.cta_promo2 {
+	position: absolute;
+	top: 65%;
+  	left: 31.5%;
+  	width: auto;	
+}
+
+.cta_promo3 {
+	position: absolute;
+	top: 65%;
+  	left: 53%;
+  	width: auto;	
+}
+
+.cta_promo4 {
+	position: absolute;
+	top: 65%;
+  	left: 75%;
+  	width: auto;	
+}
+
+
+
+/* Custom CSS for added classes  */
+
+.dark_bg {
+	background-color:#333;	
+}
+
+h1#brand {
+ 	width: 152px; 
+  	height: 40px;
+	margin-left:10px;
+  	background: url(../img/img_logo_about.png);
+ 	text-indent: -9999px;
+}
+
+h1#brand_light {
+ 	width: 152px; 
+  	height: 40px;
+	margin-left:auto;
+	margin-right: auto;
+  	background: url(../img/logo.gif);
+ 	text-indent: -9999px;
+}
+
+.data p{
+	color:#979797;
+	margin: 10px;
+	font-size:10px;
+	line-height: 120%;
+	
+}
+  
+
+
+h2.center {
+	text-align:center;
+	
+}
+
+/* Custom CSS for Prices  */
+
+
+.price {	
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.price h1 {
+    font-size: 50px;
+    color:white;
+ 
+}
+
+
+
+.superscript {
+	font-size:25px; 
+	vertical-align:top;
+	padding-right: 5px;
+
+}
+
+.price_footer p {
+		height:40px;
+		padding-top: 10px;
+		padding-bottom:10px;
+	
+}
+
+.extra_space {
+
+	margin-top: 20px;	
+}
+
+
+
+/* Custom CSS for Products  */
+
+.hr_mod { border:1.5px solid #ccc; margin-right: 30px; margin-left: 30px;" 
+}
+
+
+
+.product_header {
+	height: auto;
+	
+}
+.product_header p {
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+.product_footer {
+	margin-bottom: 50px;
+	padding: 20px;
+}
+
+.break-word {
+  word-wrap: break-word;
+}
+
+.product {
+	margin-bottom:20px;
+	height:auto;
+	
+}
+
+
+
+/* icon image zone ----------- */
+
+/* Set 2 ----------- */
+
+.icon_survey {
+	display:block;
+	background:transparent url('css/css/sprites/survey.png') center  no-repeat;
+ 	width: 64px;
+ 	height:48px;
+ 
+margin-left: auto;
+margin-right: auto;
+}
+
+.icon_survey a{
+	display:block;
+	height:64px;
+
+}
+
+.icon_survey:hover {
+   background-image: url('css/sprites/survey_hover.png');
+}
+
+.icon_games {
+	display:block;
+	background:transparent url('css/sprites/games.png') center  no-repeat;
+ 	width: 56px;
+ 	height:62px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_games a{
+	display:block;
+	height:62px;
+}
+
+.icon_games:hover {
+   background-image: url('css/sprites/games_hover.png');
+}
+
+.icon_create {
+	display:block;
+	background:transparent url('css/sprites/create.png') center  no-repeat;
+ 	width: 64px;
+ 	height:59px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_create a{
+	display:block;
+	height:59px;
+}
+
+.icon_create:hover {
+   background-image: url('css/sprites/create_hover.png');
+}
+
+.icon_offer{
+	display:block;
+	background:transparent url('css/sprites/offer.png') center  no-repeat;
+ 	width: 61px;
+ 	height:60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_offer a{
+	display:block;
+	height:60px;
+}
+
+.icon_offer:hover {
+   background-image: url('css/sprites/offer_hover.png');
+}
+
+.icon_build{
+	display:block;
+	background:transparent url('css/sprites/build.png') center  no-repeat;
+ 	width: 57px;
+ 	height:57px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_build a{
+	display:block;
+	height:57px;
+}
+
+.icon_build:hover {
+   background-image: url('css/sprites/build_hover.png');
+}
+/* Set 1 ----------- */
+
+.icon_pin{
+	display:block;
+	background:transparent url('css/sprites/pin.png') center  no-repeat;
+ 	width: 57px;
+ 	height:57px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_pin a{
+	display:block;
+	height:57px;
+}
+
+.icon_pin:hover {
+   background-image: url('css/sprites/pin_hover.png');
+}
+
+.icon_search{
+	display:block;
+	background:transparent url('css/sprites/search.png') center  no-repeat;
+ 	width: 56px;
+ 	height:56px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_search a{
+	display:block;
+	height:56px;
+}
+
+.icon_search:hover {
+   background-image: url('css/sprites/search_hover.png');
+}
+
+.icon_social{
+	display:block;
+	background:transparent url('css/sprites/social.png') center  no-repeat;
+ 	width: 64px;
+ 	height: 57px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_social a{
+	display:block;
+	height:57px;
+}
+
+.icon_social:hover {
+   background-image: url('css/sprites/social_hover.png');
+}
+
+.icon_email{
+	display:block;
+	background:transparent url('css/sprites/email.png') center  no-repeat;
+ 	width: 64px;
+ 	height: 57px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_email a{
+	display:block;
+	height:57px;
+}
+
+.icon_email:hover {
+   background-image: url('css/sprites/email_hover.png');
+}
+
+.icon_window{
+	display:block;
+	background:transparent url('css/sprites/window.png') center  no-repeat;
+ 	width: 64px;
+ 	height: 57px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon_window a{
+	display:block;
+	height:57px;
+}
+
+.icon_window:hover {
+   background-image: url('css/sprites/window_hover.png');
+}
+
+.blue{
+	display:block;
+	background:transparent url('css/sprites/blue.png') center no-repeat;
+	width: 19px;
+ 	height: 19px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.green{
+	display:block;
+	background:transparent url('css/sprites/green.png') center no-repeat;
+	width: 19px;
+ 	height: 19px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.red{
+	display:block;
+	background:transparent url('css/sprites/red.png') center no-repeat;
+	width: 19px;
+ 	height: 19px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	
+/* Styles */
+.product_header {
+	height: auto;
+	
+}
+
+.product {
+	margin-bottom:20px;
+	height:auto;
+	
+}
+
+.phone_extra_space {
+
+	margin-top: 20px !important;	
+}
+
+
+}
+
+@media (max-width: 480px) {
+	
+	.phone_extra_space {
+
+	margin-top: 20px !important;	
+}
+	
+	.phone_small_h1 {
+		
+		font-size: 48px !important;
+		
+	}
+	
+}
+	
+@media (min-width: 480px) and (max-width: 767px) {
+	
+	.phone_extra_space {
+
+	margin-top: 20px !important;	
+}
+	
+	.phone_small_h1 {
+		
+		font-size:58px !important;
+		
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	.phone_small_h1 {
+		
+		font-size:58px !important;
+		
+	}
+	
+}
